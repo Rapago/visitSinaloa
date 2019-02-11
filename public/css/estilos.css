@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+.list-menu{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+}
+
+a{
+    color: black !important;
+    transition: all .4s ease !important;
+}
+
+a:hover{
+    color: #00A8B1 !important;
+}
+
