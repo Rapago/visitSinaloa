@@ -10,12 +10,13 @@
 </head>
 <body>
     <header>
-        <ul class="nav justify-content-end list-menu">
+        <a href="/"><img class="logo-menu" src="{{asset('img/logo-gob.png')}}" alt="logo-menu"></a>     
+        <ul class="nav list-menu">  
             <li class="nav-item">
                 <a class="nav-link" href="#">Destinos Turísticos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Atractivos turístico</a>
+                <a class="nav-link" href="#">Atractivos Turístico</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Festivales</a>
@@ -23,6 +24,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Directorio</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">EN</a>
+            </li>   
+            <form id="form-menu">
+                <input type="search" class="input-menu">
+            </form>
         </ul>
     </header>
 @show
