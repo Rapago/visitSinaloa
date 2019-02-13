@@ -7,6 +7,7 @@
     <title>Visit Sinaloa!</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('css/estilos.css')}}">
+    <link rel="stylesheet" href="{{asset('css/swiper.css')}}">
 </head>
 <body>
     <header>
@@ -16,7 +17,7 @@
                 <a class="nav-link" href="#">Destinos Turísticos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Atractivos Turístico</a>
+                <a class="nav-link" href="#">Atractivos Turísticos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Festivales</a>

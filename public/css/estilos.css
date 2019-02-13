@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
 
+/*------------------------------------MENU------------------------------------*/
 header{
     height: 71px;
     width: 100%;
     position: fixed;
     z-index: 100000;
+    background-color: #ffff;
 }
-
 .logo-menu{
     height: 55px;
     margin: 8px 5%;
 }
 .sec-menu{
     float: left;
-
 }
-
 .list-menu{
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
@@ -24,21 +23,16 @@ header{
     height: 71px;
     float: right;
 }
-
 li{
     margin: auto 0;
 }
-
 a{
     color: black !important;
     transition: all .4s ease !important; 
 }
-
 a:hover{
     color: #00A8B1 !important;
 }
-
-/* INPUT BUSQUEDA MENU */
 .input-menu {
 	outline: none;
 }
@@ -91,3 +85,54 @@ input::-webkit-search-cancel-button {
 	color: transparent;
 }
 
+/*------------------------------------Slider------------------------------------*/
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+    position: absolute !important;
+}
+
+.slide-div-main{
+    position: absolute;
+    margin-left: 5%;
+}
+
+.slide-div-logo{
+    position: relative;
+    z-index: 2;
+    width: 500px;
+    margin: 150px 0% 30px 0%;  
+}
+
+.imgslide-div-logo{
+    height: inherit;
+    width: inherit;
+}
+
+.slide-div-content{
+    position: relative;
+    width: 530px;
+    margin: 35px 0% 0px 0%;
+    z-index: 2;
+}
+.pslide-div-content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.btnslide-div-content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffff;
+    background-color: #ff0099;
+    border: none;
+    padding: 10px 8px;
+    transition: all .4s ease !important;
+    cursor: pointer;
+}
+
+.btnslide-div-content:hover{
+    background-color: #cc037d;
+}
