@@ -136,3 +136,52 @@ input::-webkit-search-cancel-button {
 .btnslide-div-content:hover{
     background-color: #cc037d;
 }
+
+/*----------------------------Destinos Turísticos------------------------------*/
+
+.slider-size{
+    height: 380px!important;
+}
+
+.cho-25{
+    background-image: url('../img/destinos/CHO-25.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position-y: 50%; 
+}
+
+.fue-3{
+    background-image: url('../img/destinos/FUE-3.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position-y: 50%; 
+}
+
+.bad-2{
+    background-image: url('../img/destinos/BAD-2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position-y: 50%; 
+}
+
+.slide-div-content-destinos{
+    position: relative;
+    z-index: 2;
+}
+.parrafo-slide-div-content{
+    margin-top: 200px; 
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.slide-div-contenido{
+    position: absolute;
+    margin-left: 33%;
+    margin-right: 33%
+}
